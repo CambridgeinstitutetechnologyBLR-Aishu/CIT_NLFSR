@@ -1,12 +1,12 @@
 project:
+  yaml_version: 1
   title:        "PQC NLFSR"
   author:       "Aishu and Rishika"
-  description:  "8-bit Non-Linear Feedback Shift Register for PQC"
-  how_it_works: "Uses non-linear AND-gate feedback for quantum-resistant sequences."
-  how_to_test:  "Load seed via ui_in and uio[0], then run using uio[1]."
+  description:  "8-bit NLFSR"
+  how_it_works: "Non-linear feedback logic"
+  how_to_test:  "Toggle load and enable"
   language:     "Verilog"
   top_module:   "tt_um_nlfsr_pqc"
-  yaml_version: 1
   tiles: "1x1"
   clock_hz: 10000000
   source_files:
