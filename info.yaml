@@ -2,9 +2,9 @@ project:
   yaml_version: 1
   title:        "PQC NLFSR"
   author:       "Aishu and Rishika"
-  description:  "8-bit NLFSR"
-  how_it_works: "Non-linear feedback logic"
-  how_to_test:  "Toggle load and enable"
+  description:  "8-bit NLFSR for PQC"
+  how_it_works: "Non-linear feedback shift register using AND gates."
+  how_to_test:  "Load seed, enable, and check output."
   language:     "Verilog"
   top_module:   "tt_um_nlfsr_pqc"
   tiles: "1x1"
